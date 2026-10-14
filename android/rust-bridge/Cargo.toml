@@ -1,0 +1,13 @@
+[package]
+name = "vectorcraft-android-bridge"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+vectorcraft-geom = { workspace = true }
+jni = "0.21"

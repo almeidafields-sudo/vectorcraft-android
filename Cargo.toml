@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["crates/*", "apps/*", "xtask"]
+members = ["crates/*", "apps/*", "xtask", "android/rust-bridge"]
 default-members = ["crates/*", "apps/vectorcraft", "apps/vectorcraft-cli", "xtask"]
 
 [workspace.package]
